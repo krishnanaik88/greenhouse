@@ -17,18 +17,16 @@ pip install pandas numpy matplotlib tensorflow scikit-learn
 ### 📂 **File Structure**
 ```bash
 /solar-energy-forecasting
-├── data/
+├── Data Sets/
 │   └── solar_weather_data.csv            # Historical data (solar power, weather conditions)
-├── models/
-│   └── solar_forecasting_model.h5        # Pretrained LSTM model
-├── notebooks/
-│   └── data_preprocessing.ipynb         # Jupyter Notebook for data processing & model training
-├── src/
-│   └── main.py                          # Main script for running the model and predictions
-├── results/
-│   └── forecasted_output.png            # Graph of actual vs predicted solar energy output
-├── README.md                            # Project documentation
-└── requirements.txt                     # Python dependencies
+├── Python Code/
+│   ├── data_preprocessing.py             # Script for data preprocessing
+│   ├── model_training.py                 # Script for training the LSTM model
+│   └── prediction.py                     # Script for making predictions using the trained model
+├── Case Study.pdf                        # Detailed case study document
+├── README.md                             # Project documentation
+└── requirements.txt                      # Python dependencies
+
 ```
 
 ---
